@@ -18,6 +18,8 @@
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -28,6 +30,8 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -41,9 +45,8 @@
 
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light"><a class="scrollto" href="index.html#intro">
-            <img src="img/logo.png" style="margin-bottom: 15px;" alt="" class="img-fluid">
-            <span style="letter-spacing: -1px;"> micro it industry</span></a></h1>
+        <h1 class="text-light"><a class="scrollto" href="#intro">
+            <span class="logo-span">Micro IT Industry</span></a></h1>
 
       </div>
 
@@ -58,7 +61,7 @@
               <li><a href="#">Career</a></li>
             </ul>
           </li>
-          
+
           <li class="btn-contactUs"><a href="#contact">Contact Us</a></li>
         </ul>
       </nav><!-- .main-nav -->
@@ -67,6 +70,10 @@
   </header><!-- #header -->
 
   <main id="main">
+
+
+    <!-- ======= Portfolio Section ======= -->
+
 
     <!--==========================
       Portfolio Section
@@ -78,155 +85,167 @@
           <h3 class="section-title">Our Portfolio</h3>
         </header>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">App 1</a></h4>
-                <p>App</p>
-                <div>
-                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+        <section id="work" class="portfolio-mf sect-pt4 route">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="title-box text-center">
+                  <p class="subtitle-a">
+                    Our previous work
+                  </p>
+                  <div class="line-mf"></div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Web 3</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">Lorem impsum dolor</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <a href="portfolio-details.html"> <span class="bi bi-arrow-right-circle-fill"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">App 2</a></h4>
-                <p>App</p>
-                <div>
-                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">Loreda Cuno Nere</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <a href="portfolio-details.html"> <span class="bi bi-arrow-right-circle-fill"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Card 2</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">Mavrito Lana Dere</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <a href="portfolio-details.html"> <span class="bi bi-arrow-right-circle-fill"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Web 2</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">Bindo Laro Cado</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <a href="portfolio-details.html"> <span class="bi bi-arrow-right-circle-fill"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">App 3</a></h4>
-                <p>App</p>
-                <div>
-                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">Studio Lena Mado</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <a href="portfolio-details.html"> <span class="bi bi-arrow-right-circle-fill"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Card 1</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              <div class="col-md-4">
+                <div class="work-box">
+                  <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                    <div class="work-img">
+                      <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+                    </div>
+                  </a>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title">Studio Big Bang</h2>
+                        <div class="w-more">
+                          <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <a href="portfolio-details.html"> <span class="bi bi-arrow-right-circle-fill"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Card 3</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Web 1</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1"
-                    title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        </section><!-- End Portfolio Section -->
 
       </div>
     </section><!-- #portfolio -->
@@ -357,7 +376,8 @@
               <a href="https://twitter.com/microitindustry" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="https://www.facebook.com/MicroITIndustryOfficial" class="facebook"><i
                   class="fa fa-facebook"></i></a>
-              <a href="https://www.instagram.com/micro_it_industry_miti/" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.instagram.com/micro_it_industry_miti/" class="instagram"><i
+                  class="fa fa-instagram"></i></a>
               <a href="https://www.linkedin.com/company/micro-it-industry" class="linkedin"><i
                   class="fa fa-linkedin"></i></a>
             </div>
